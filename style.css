@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+}
+.text_color {
+  background-color: #00ff01;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.time_wrapper {
+  position: relative;
+}
+#time {
+  text-shadow: 0 0 80px #3ec92b;
+  font-size: 12rem;
+}
+#sec {
+  position: absolute;
+  bottom: 40px;
+  font-size: 3rem;
+}
+#mid {
+  position: absolute;
+  top: 35px;
+  right: -85px;
+  font-size: 3rem;
+}
